@@ -1,0 +1,23 @@
+$main-color: #ff0000;
+
+.red{
+  color: $main-color;
+}
+
+.my-alert{
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #eee;
+  border-radius: 5px;
+
+  p{
+    margin-bottom: 0;
+  }
+}
+
+.my-alert-blue{
+  @extend .my-alert;
+  color: blue;
+}
